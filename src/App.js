@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { HomePage } from "./Components/HomePage";
+import React, { useEffect } from "react";
+import { BrowserRouter, Route, Switch, Routes } from "react-router-dom";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { AboutUsPage } from "./Components/AboutUsPage";
+import { ServicePage } from "./Components/ServicePage";
+import { PricingPage } from "./Components/PricingPage";
+import { TeamMemberPage } from "./Components/TeamMemberPage";
+import { NavigationBar } from "./Components/NavigationBar";
+import { Footer } from "./Components/Footer";
 function App() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavigationBar></NavigationBar>
+      <Routes>
+        <Route path="Carz" element={<HomePage />} />
+        <Route path="AboutUsPage" element={<AboutUsPage />} />
+        <Route path="ServicePage" element={<ServicePage />} />
+        <Route path="PricingPage" element={<PricingPage />} />
+        <Route path="TeamMemberPage" element={<TeamMemberPage />} />
+      </Routes>
+
+      <Footer></Footer>
     </div>
   );
 }
