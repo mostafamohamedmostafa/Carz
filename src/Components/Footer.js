@@ -4,7 +4,9 @@ import { BsTelephonePlus } from "react-icons/bs";
 import { GiLinkedRings } from "react-icons/gi";
 import Navlogo from "../images/Navlogo.gif";
 import { Link, Route, Routes } from "react-router-dom";
-
+import { FiMap } from "react-icons/fi";
+import { FiPhone } from "react-icons/fi";
+import { FiCalendar } from "react-icons/fi";
 export const Footer = () => {
   return (
     <section className="FooterSection container-fluid text-center">
@@ -41,11 +43,10 @@ export const Footer = () => {
             <h3>Quick Links</h3>
 
             <div className="card-body">
-   
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item ">
                   <Link className="nav-link  " aria-current="page" to="Carz">
-                  <GiLinkedRings />  Carz
+                    <GiLinkedRings /> Carz
                   </Link>
                 </li>
 
@@ -65,7 +66,7 @@ export const Footer = () => {
                     aria-current="page"
                     to="ServicePage"
                   >
-                  <GiLinkedRings />   ServicePage
+                    <GiLinkedRings /> ServicePage
                   </Link>
                 </li>
 
@@ -75,7 +76,7 @@ export const Footer = () => {
                     aria-current="page"
                     to="PricingPage"
                   >
-                  <GiLinkedRings />   PricingPage
+                    <GiLinkedRings /> PricingPage
                   </Link>
                 </li>
 
@@ -85,7 +86,7 @@ export const Footer = () => {
                     aria-current="page"
                     to="TeamMemberPage"
                   >
-                  <GiLinkedRings />   TeamMemberPage
+                    <GiLinkedRings /> TeamMemberPage
                   </Link>
                 </li>
               </ul>
@@ -99,29 +100,15 @@ export const Footer = () => {
 
             <div className="card-body">
               <p className="card-title">
-                <AiOutlineCheckCircle /> Feature One
+                <FiMap /> Location :
               </p>
               <p className="card-title">
-                <AiOutlineCheckCircle /> Feature Two
+                <FiPhone /> Phone : <a href="tel:01110457203">Here</a>
               </p>
               <p className="card-title">
-                <AiOutlineCheckCircle /> Feature Three
+                <FiCalendar />7 Days: Open 27/7
               </p>
-              <p className="card-title">
-                <AiOutlineCheckCircle /> Feature Four
-              </p>
-              <p className="card-title">
-                <AiOutlineCheckCircle /> Feature Five
-              </p>
-              <p className="card-title">
-                <AiOutlineCheckCircle /> Feature Six
-              </p>
-              <p className="card-title">
-                <AiOutlineCheckCircle /> Feature Seven
-              </p>
-              <p className="card-title">
-                <AiOutlineCheckCircle /> Feature Eight
-              </p>
+
             </div>
           </div>
         </div>
