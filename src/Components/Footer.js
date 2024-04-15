@@ -3,6 +3,7 @@ import { AiOutlineCheckCircle } from "react-icons/ai";
 import { BsTelephonePlus } from "react-icons/bs";
 import { GiLinkedRings } from "react-icons/gi";
 import Navlogo from "../images/Navlogo.gif";
+import { Link, Route, Routes } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -23,9 +24,9 @@ export const Footer = () => {
 
             <div className="card-body">
               <p className="card-title">
-                Lorem Ipsum is simply dummy text of the
-                printing and typesetting industry. Lorem Ipsum has been the
-                industry's stan. Lorem Ipsum is.
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's stan. Lorem Ipsum
+                is.
               </p>
               <h1 className="card-title">
                 <BsTelephonePlus />
@@ -40,30 +41,54 @@ export const Footer = () => {
             <h3>Quick Links</h3>
 
             <div className="card-body">
-              <p className="card-title">
-              <GiLinkedRings /> Feature One
-              </p>
-              <p className="card-title">
-                <AiOutlineCheckCircle /> Feature Two
-              </p>
-              <p className="card-title">
-                <AiOutlineCheckCircle /> Feature Three
-              </p>
-              <p className="card-title">
-                <AiOutlineCheckCircle /> Feature Four
-              </p>
-              <p className="card-title">
-                <AiOutlineCheckCircle /> Feature Five
-              </p>
-              <p className="card-title">
-                <AiOutlineCheckCircle /> Feature Six
-              </p>
-              <p className="card-title">
-                <AiOutlineCheckCircle /> Feature Seven
-              </p>
-              <p className="card-title">
-                <AiOutlineCheckCircle /> Feature Eight
-              </p>
+   
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <li className="nav-item ">
+                  <Link className="nav-link  " aria-current="page" to="Carz">
+                  <GiLinkedRings />  Carz
+                  </Link>
+                </li>
+
+                <li className="nav-item ">
+                  <Link
+                    className="nav-link  "
+                    aria-current="page"
+                    to="AboutUsPage"
+                  >
+                    <GiLinkedRings /> AboutUsPage
+                  </Link>
+                </li>
+
+                <li className="nav-item ">
+                  <Link
+                    className="nav-link  "
+                    aria-current="page"
+                    to="ServicePage"
+                  >
+                  <GiLinkedRings />   ServicePage
+                  </Link>
+                </li>
+
+                <li className="nav-item ">
+                  <Link
+                    className="nav-link  "
+                    aria-current="page"
+                    to="PricingPage"
+                  >
+                  <GiLinkedRings />   PricingPage
+                  </Link>
+                </li>
+
+                <li className="nav-item ">
+                  <Link
+                    className="nav-link  "
+                    aria-current="page"
+                    to="TeamMemberPage"
+                  >
+                  <GiLinkedRings />   TeamMemberPage
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
