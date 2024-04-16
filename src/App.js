@@ -16,7 +16,7 @@ function App() {
     AOS.refresh();
   }, []);
   return (
-    <div className="App">
+    <div className="App container-fluid">
       <NavigationBar></NavigationBar>
       <Routes>
         <Route path="Carz" element={<HomePage />} />

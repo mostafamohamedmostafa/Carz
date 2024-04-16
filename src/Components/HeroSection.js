@@ -18,9 +18,14 @@ export const HeroSection = () => {
           <div className="carousel-item active">
             <div className="card text-bg-dark">
               <img src={Hero1} className="card-img" alt="Hero Section Image" />
-              <div className="card-img-overlay HeroSectionOverLayText ">
-                <h1 className="card-title tracking-in-contract-bck ">AUTOMOTIVE REPAIR MAINTENANCE</h1>
-                <p className="card-text tracking-in-contract-bck ">{HeroText}</p>
+              <div
+                className="card-img-overlay HeroSectionOverLayText "
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+              >
+                <h1 className="card-title ">AUTOMOTIVE REPAIR MAINTENANCE</h1>
+                <p className="card-text  ">{HeroText}</p>
               </div>
             </div>
           </div>
@@ -28,7 +33,12 @@ export const HeroSection = () => {
           <div className="carousel-item">
             <div className="card text-bg-dark ">
               <img src={Hero2} className="card-img" alt="Hero Section Image" />
-              <div className="card-img-overlay HeroSectionOverLayText tracking-in-contract-bck">
+              <div
+                className="card-img-overlay HeroSectionOverLayText "
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+              >
                 <h1 className="card-title">CAR REPAIR & AUTO SERVICES</h1>
                 <p className="card-text">{HeroText}</p>
               </div>
@@ -38,7 +48,12 @@ export const HeroSection = () => {
           <div className="carousel-item">
             <div className="card text-bg-dark">
               <img src={Hero3} className="card-img" alt="Hero Section Image" />
-              <div className="card-img-overlay HeroSectionOverLayText tracking-in-contract-bck">
+              <div
+                className="card-img-overlay HeroSectionOverLayText"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+              >
                 <h1 className="card-title">AUTOMOTIVE REPAIR MAINTENANCE</h1>
                 <p className="card-text">{HeroText}</p>
               </div>
@@ -48,7 +63,12 @@ export const HeroSection = () => {
           <div className="carousel-item">
             <div className="card text-bg-dark ">
               <img src={Hero4} className="card-img" alt="Hero Section Image" />
-              <div className="card-img-overlay HeroSectionOverLayText tracking-in-contract-bck">
+              <div
+                className="card-img-overlay HeroSectionOverLayText "
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+              >
                 <h1 className="card-title">CAR REPAIR & AUTO SERVICES</h1>
                 <p className="card-text">{HeroText}</p>
               </div>

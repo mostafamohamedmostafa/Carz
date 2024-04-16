@@ -12,7 +12,6 @@ body {
 }
 
 section {
-
   margin-bottom: 5%;
 }
 
@@ -34,16 +33,7 @@ section {
   font-size: 4rem;
 }
 
-@media screen and (max-width: 480px) {
-  .HeroSectionOverLayText {
-    width: 100%;
-    font-size: medium;
-  }
 
-  .HeroSectionOverLayText h1 {
-    font-size: large;
-  }
-}
 
 .MiniServiceSection {
   margin-bottom: 13%;
@@ -185,17 +175,39 @@ p {
   background-color: red !important;
 }
 
-.gfgf{
+.gfgf {
   z-index: -1;
   position: absolute;
   left: 0px;
   top: 0px;
 }
 
-.ContactForm .card{
+.ContactForm .card {
   color: white;
 }
 
-.ContactForm form  input{
+.ContactForm form input {
   border: 5px solid red;
+}
+
+
+@media screen and (max-width: 480px) {
+  .HeroSectionOverLayText {
+    width: 100%;
+    font-size: medium;
+  }
+
+  .HeroSectionOverLayText h1 {
+    font-size: large;
+  }
+
+  .SpecailTextFont {
+    font-size: 34px !important;
+  }
+
+  .PricingSection {
+
+    height: 130vh;
+    
+  }
 }
