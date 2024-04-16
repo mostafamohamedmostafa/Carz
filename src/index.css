@@ -210,4 +210,16 @@ p {
     height: 130vh;
     
   }
+
+  .WhyUsSection .card img {
+    border-radius: 100% 0% 100% 0% / 5% 95% 10% 94%;
+    transform: rotate(1deg);
+  }
+  
+  .WhyUsImage .card {
+    background-color: brown !important;
+    border-radius: 100% 0% 100% 0% / 5% 95% 10% 94%;
+    transform: rotate(3deg);
+  }
+  
 }
