@@ -221,5 +221,14 @@ p {
     border-radius: 100% 0% 100% 0% / 5% 95% 10% 94%;
     transform: rotate(3deg);
   }
+
+  .HeroSectionOverLayText {
+
+    font-size: 1.1rem;
+  }
+  
+  .HeroSectionOverLayText h1 {
+    font-size: 1.3rem;
+  }
   
 }

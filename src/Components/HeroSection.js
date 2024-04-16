@@ -24,7 +24,7 @@ export const HeroSection = () => {
                 data-aos-easing="linear"
                 data-aos-duration="1000"
               >
-                <h1 className="card-title ">AUTOMOTIVE REPAIR MAINTENANCE</h1>
+                <h1 className="card-title tracking-in-contract-bck">AUTOMOTIVE REPAIR MAINTENANCE</h1>
                 <p className="card-text  ">{HeroText}</p>
               </div>
             </div>
@@ -39,7 +39,7 @@ export const HeroSection = () => {
                 data-aos-easing="linear"
                 data-aos-duration="1000"
               >
-                <h1 className="card-title">CAR REPAIR & AUTO SERVICES</h1>
+                <h1 className="card-title tracking-in-contract-bck">CAR REPAIR & AUTO SERVICES</h1>
                 <p className="card-text">{HeroText}</p>
               </div>
             </div>
@@ -54,7 +54,7 @@ export const HeroSection = () => {
                 data-aos-easing="linear"
                 data-aos-duration="1000"
               >
-                <h1 className="card-title">AUTOMOTIVE REPAIR MAINTENANCE</h1>
+                <h1 className="card-title tracking-in-contract-bck">AUTOMOTIVE REPAIR MAINTENANCE</h1>
                 <p className="card-text">{HeroText}</p>
               </div>
             </div>
@@ -69,7 +69,7 @@ export const HeroSection = () => {
                 data-aos-easing="linear"
                 data-aos-duration="1000"
               >
-                <h1 className="card-title">CAR REPAIR & AUTO SERVICES</h1>
+                <h1 className="card-title tracking-in-contract-bck">CAR REPAIR & AUTO SERVICES</h1>
                 <p className="card-text">{HeroText}</p>
               </div>
             </div>
