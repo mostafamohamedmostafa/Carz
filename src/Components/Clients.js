@@ -4,11 +4,11 @@ export const Clients = () => {
   return (
     <section className="ClientsSection container">
       <h1>TRUSTED CLIENT</h1>
-      <div className="row row-cols-1 row-cols-md-5 g-4">
+      <div className="row row-cols-1 row-cols-lg-5  g-4">
         {CLientsServiceData.map((CLientsServiceData, index) => {
           return (
             <div
-              className="col "
+              className="col-6 "
               data-aos="fade-up"
               data-aos-duration="1000"
               key={index}
